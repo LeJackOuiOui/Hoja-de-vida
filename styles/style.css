@@ -1,0 +1,86 @@
+:root{
+    --primary: #3735D0;
+    --secondary: #B0DEF3;
+    --terciary: #E0E7F7;
+    --quaternary: #292436;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 200px;
+    border-radius: 100%;
+    margin: 15% auto 5%;
+    padding: 0 15%;
+}
+.mb-10{
+    margin-bottom: 10%;
+}
+.mt-10{
+    margin-top: 10%;
+}
+.b{
+    font-weight: bold;
+}
+.contacto{
+    padding: 0 15%;
+    line-height: 3px;
+}
+.habilidades{
+    padding: 0 15%;
+    line-height: 1.5rem;
+}
+.habilidades ul{
+    padding: 0 15px;
+}
+.lenguajes{
+    padding: 0 15%;
+    line-height: 1.5rem;
+}
+.lenguajes ul{
+    padding: 0 15px;
+}
+.bg-primary{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+.bg-secondary{
+    background-color: var(--secondary);
+    color: var(--secondary);
+}
+.bg-terciary{
+    background-color: var(--terciary);
+    color: var(--quaternary);
+}
+.bg-quaternary{
+    background-color: var(--quaternary);
+    color: var(--terciary);
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+.nombre{
+    line-height: 0;
+}
+.perfil{
+    margin: 5% 5%;
+}
+.experiencia{
+    margin: 5% 5%;
+}
+.educacion{
+    margin: 5% 5%;
+}
